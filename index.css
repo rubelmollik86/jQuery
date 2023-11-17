@@ -12,6 +12,8 @@
       background-color: aquamarine;
       border-radius: 10px;
       padding: 10px;
+      background: transparent;
+
   }
 
   @keyframes flow {
@@ -23,3 +25,50 @@
           top: 200px;
       }
   }
+
+  
+
+
+          .my-div {
+            
+              overflow: hidden;
+              width: 100%;
+         
+          }
+    
+          .my-div h2 {
+              font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              font-size: 100px;
+              position: absolute;
+              bottom: -100px;
+              left: 50%;
+              transform: translateX(-50%);
+              animation: sunUp 5s ease forwards;
+              opacity: 0;
+              color:lightgreen;
+              font-weight: 900;
+
+          }
+    
+          @keyframes sunUp {
+              0% {
+                  opacity: 0;
+                  bottom: -100px;
+              }
+    
+              100% {
+                  opacity: 1;
+                  bottom: 50px;
+              }
+          }
+
+
+
+                  #p1,h3 {
+                      font-family: Arial, sans-serif;
+                      font-size: 22px;
+                      overflow: hidden;
+                      white-space: nowrap;
+                      padding: 10px;
+                      margin-top: 50px;
+                  }
