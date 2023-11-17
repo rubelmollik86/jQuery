@@ -1,0 +1,25 @@
+  body {
+      overflow: hidden;
+  }
+
+  h1 {
+      font-size: 70px;
+      position: relative;
+      animation: flow 8s linear infinite;
+      color:orangered;
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-color: aquamarine;
+      border-radius: 10px;
+      padding: 10px;
+  }
+
+  @keyframes flow {
+      0% {
+          top: 0;
+      }
+
+      100% {
+          top: 200px;
+      }
+  }
